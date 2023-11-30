@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+    <div id="weather-container">
+        <h2>Weather Dashboard</h2>
+
+        <!-- Search Bar -->
+        <input type="text" id="search-input" placeholder="Enter City">
+        <button id="search-button" onclick="searchWeather()">Search</button>
+
+        <!-- Weather Information -->
+        <div id="location">City, Country</div>
+        <div id="temperature">25°C</div>
+        <img id="weather-icon" src="https://openweathermap.org/img/w/01d.png" alt="Weather Icon">
+        <div id="description">Clear sky</div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script2.js"></script>
+</body>
+
+</html>
