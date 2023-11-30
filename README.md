@@ -18,4 +18,4 @@ WeatherAPI-Link="https://openweathermap.org/api/one-call-3"
 
 Github-Deploy="https://ameridacas.github.io/Whats_The_Weather_App/"
 
-Github-Repo="https://github.com/ameridacas/Whats_The_Weather_App"
+Github-Repo="https://github.com/ameridacas/Whats_The_Weather_App/"
