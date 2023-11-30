@@ -10,19 +10,81 @@
 </head>
 
 <body>
+<main>WhatsTheWeather?</main>
+    <div class="container">
+        <!-- Aside -->
+        <aside>
+            <div class="sidebar">
+                <h2>Search A City</h2>
+                <label for="search-input">Enter City:</label>
+                <input type="text" id="search-input" placeholder="City">
+                <button id="searchWeather" value="searchWeather">Search</button>
+            </div>
 
-    <div id="weather-container">
-        <h2>Weather Dashboard</h2>
+            <div class="content">
+                <div class="searched-city">
+                    <h2>Searched City:</h2>
+                    <div id="searched-city-name">No city searched yet</div>
+                </div>
+            </div>
+        </aside>
 
-        <!-- Search Bar -->
-        <input type="text" id="search-input" placeholder="Enter City">
-        <button id="search-button" onclick="searchWeather()">Search</button>
+        <!-- Weather Details Section -->
+        <section>
+            <div class="weather-details">
+                <h2>Weather Details:</h2>
+                <div id="temperature">Temperature: Unknown</div>
+                <div id="wind">Wind: Unknown</div>
+                <div id="humidity">Humidity: Unknown</div>
+            </div>
+        </section>
 
-        <!-- Weather Information -->
-        <div id="location">City, Country</div>
-        <div id="temperature">25°C</div>
-        <img id="weather-icon" src="https://openweathermap.org/img/w/01d.png" alt="Weather Icon">
-        <div id="description">Clear sky</div>
+        <!-- 5-Day Forecast Section -->
+        <section>
+            <h2>5-Day Forecast:</h2>
+            <div class="forecast">
+                <div class="forecast-container" id="day1">
+                    <h3>Day 1 Forecast</h3>
+                    <div>City: <span id="day1-city"></span></div>
+                    <div>Date: <span id="day1-date"></span></div>
+                    <div>Temperature: <span id="day1-temperature"></span></div>
+                    <div>Wind: <span id="day1-wind"></span></div>
+                    <div>Humidity: <span id="day1-humidity"></span></div>
+                </div>
+                <div class="forecast-container" id="day2">
+                    <h3>Day 2 Forecast</h3>
+                    <div>City: <span id="day2-city"></span></div>
+                    <div>Date: <span id="day2-date"></span></div>
+                    <div>Temperature: <span id="day2-temperature"></span></div>
+                    <div>Wind: <span id="day2-wind"></span></div>
+                    <div>Humidity: <span id="day2-humidity"></span></div>
+                </div>
+                <div class="forecast-container" id="day3">
+                    <h3>Day 3 Forecast</h3>
+                    <div>City: <span id="day3-city"></span></div>
+                    <div>Date: <span id="day3-date"></span></div>
+                    <div>Temperature: <span id="day3-temperature"></span></div>
+                    <div>Wind: <span id="day3-wind"></span></div>
+                    <div>Humidity: <span id="day3-humidity"></span></div>
+                </div>
+                <div class="forecast-container" id="day4">
+                    <h3>Day 4 Forecast</h3>
+                    <div>City: <span id="day4-city"></span></div>
+                    <div>Date: <span id="day4-date"></span></div>
+                    <div>Temperature: <span id="day4-temperature"></span></div>
+                    <div>Wind: <span id="day4-wind"></span></div>
+                    <div>Humidity: <span id="day4-humidity"></span></div>
+                </div>
+                <div class="forecast-container" id="day5">
+                    <h3>Day 5 Forecast</h3>
+                    <div>City: <span id="day5-city"></span></div>
+                    <div>Date: <span id="day5-date"></span></div>
+                    <div>Temperature: <span id="day5-temperature"></span></div>
+                    <div>Wind: <span id="day5-wind"></span></div>
+                    <div>Humidity: <span id="day5-humidity"></span></div>
+                </div>
+            </div>
+        </section>
     </div>
 
     <script src="./assets/js/script.js"></script>
