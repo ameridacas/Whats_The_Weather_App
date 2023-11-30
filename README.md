@@ -12,7 +12,7 @@ previous cities and view there information.
 
 #Mock_UP
 
-![alt Weather_Dashboard](./assets/image/Weather_Dashboard.png)
+![alt Weather_Dashboard](./assets/images/Weather_Dashboard.png)
 
 #Usage
 
