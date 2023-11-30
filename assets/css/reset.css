@@ -1,0 +1,50 @@
+ /*Box sizing
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+body,
+input,
+textarea,
+button {
+  line-height: 1.5;
+}
+
+body {
+  color: #333;
+}
+
+body {
+  background-color: #fff;
+}
